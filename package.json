@@ -1,8 +1,13 @@
 {
   "name": "clone-or-create",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React clone or create for a component",
   "type": "module",
+  "files": [
+    "dist",
+    "package.json",
+    "readme.md"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
