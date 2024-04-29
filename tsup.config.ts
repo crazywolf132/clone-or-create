@@ -7,6 +7,7 @@ const options: Options = {
 
 const config = defineConfig([
     {
+        clean: true,
         name: "cloneOrCreate",
         entry: ['src/index.tsx', 'src/tiny.tsx'], // Add 'src/tiny.tsx' as a secondary entrypoint
         ...options

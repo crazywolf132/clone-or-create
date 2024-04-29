@@ -1,19 +1,17 @@
 {
   "name": "clone-or-create",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React clone or create for a component",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     },
     "./tiny": {
-      "import": "./dist/tiny.esm.js",
-      "require": "./dist/tiny.cjs.js",
+      "import": "./dist/tiny.js",
+      "require": "./dist/tiny.cjs",
       "types": "./dist/tiny.d.ts"
     }
   },
