@@ -10,7 +10,9 @@ const config = defineConfig([
         clean: true,
         name: "cloneOrCreate",
         entry: ['src/index.tsx', 'src/tiny.tsx'], // Add 'src/tiny.tsx' as a secondary entrypoint
-        ...options
+        format: ['cjs', 'esm'],
+        dts: true,
+        skipNodeModulesBundle: true,
     }
 ]);
 
